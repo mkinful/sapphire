@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+.top-image {
+  padding: 13px;
+}
+
+.carousel-caption {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.middle-section {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px double rgb(68, 51, 45);
+}
+
+.card-img-top {
+  transition: ease-in-out transform 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.02);
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 10px;
+}
+
+.social {
+  word-spacing: 8px;
+}
+
+.footer {
+  background-image: linear-gradient(rgb(248, 247, 247), rgb(104, 104, 104));
+  padding: 12px;
+}
+
+.footer a {
+  text-decoration: none;
+}

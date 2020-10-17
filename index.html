@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <title></title>
+</head>
+<body>
+  
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pharmacy
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Refills</a>
+          <a class="dropdown-item" href="#">New Prescription</a>
+      </li>
+                    <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Vitamins</a>
+          <a class="dropdown-item" href="#">Beauty Products</a>
+          <a class="dropdown-item" href="#">Reproductive Care</a>
+          <a class="dropdown-item" href="#">Local Pickup</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Sign In</a>
+      </li>
+      <div class="search">
+    <form class="form-inline">
+    <input class="form-control mr-sm-2 " type="search" placeholder="Search..." aria-label="Search">
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+          </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="top-image">
+<div id="indicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#indicator1" data-slide-to="0" class="active"></li>
+    <li data-target="#indicator2" data-slide-to="1"></li>
+    <li data-target="#indicator3" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/natural1.jpg">
+        <div class="carousel-caption caption-1">
+        <h3>“I believe that for every illness or ailment known to man, that God has a plant out here that will heal it. 
+          We just need to keep discovering the properties for natural healing.”</h3>
+        <p>Vannoy Gentles Fite</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/pharmacy.jpg">
+        <div class="carousel-caption caption-2">
+        <h3>New Prescriptions and Refills made easy. Order through this site, or through our mobile app.</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/skincare.jpg">
+        <div class="carousel-caption caption-3">
+        <h3>Skin care is an essential component to a healty life. We offer the latest products to bring your skin to life.</h3>
+      </div>
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+</div>
+</div>
+
+<div class="middle-section">
+<div class="card-deck">
+  <div class="card">
+    <a href="#" ><img src="images/pharmacy2.jpg" class="card-img-top"></a>
+    <div class="card-body">
+      <h5 class="card-title">Pharmacy</h5>
+      <p class="card-text">Come take care of your prescription needs with our friendly and well educated staff.</p>
+      <a href="#" class="btn btn-outline-primary">Prescriptions</a>
+  </div>
+   
+  </div>
+  <div class="card">
+    <img src="images/skincare2.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Skin Care</h5>
+      <p class="card-text">Develop a healthy routine of taking care of your skin with our products. We will help your skin glow.</p>
+      <a href="#" class="btn btn-outline-danger">Beauty Products</a>
+    </div>
+
+  </div>
+  <div class="card">
+    <img src="images/natural2.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Natural Medicines</h5>
+      <p class="card-text">Discover a natural alternative to traditional medinces. Explore our natural oils and herbs today.</p>
+      <a href="#" class="btn btn-outline-success">Nature's Remedy</a>
+    </div>
+   
+  </div>
+</div>
+</div>
+
+<div class="jumbotron bg-primary text-white p-4">
+  <h1 class="display-4">Products and Services</h1>
+  <br>
+  <p class="lead">New Arrivals and Current Sales</p>
+  <hr class="my-1">
+  <br>
+  <p>What else can we provide for you besides your health and well being?</p>
+  <a class="btn btn-success btn-lg" href="#" role="button">Find Out</a>
+</div>
+
+<div class="footer">
+  <footer class="site-footer">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="#">Sites</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-center">
+            <div class="social">
+            <h5>Join Us</h5>
+            <a class="btn btn-social-icon btn-instagram" href=""><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-social-icon btn-facebook" href=""><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href=""><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-google" href=""><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+              Call Us</a><br />
+            <a role="button" class="btn btn-link" href="mailto:sapphirepharm@gmail.com"><i class="fa fa-envelope-o"></i>
+            Email Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</div>
+
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
