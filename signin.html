@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="pharmacy.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pharmacy
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="pharmacy.html">Prescriptions</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Vitamins</a>
+                        <a class="dropdown-item" href="#">Beauty Products</a>
+                        <a class="dropdown-item" href="#">Reproductive Care</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="signin.html">Sign In</a>
+                        <a class="dropdown-item" href="register.html">Register</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <div class="search">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2 " type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <form>
+        <h2>Login</h2>
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Username" name="usrnm">
+        </div>
+    
+        <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="text" placeholder="Email" name="email">
+        </div>
+    
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input-field" type="password" placeholder="Password" name="psw">
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-phone icon"></i>
+            <input class="input-field" type="phone" placeholder="Optional" name="phone">
+        </div>
+    
+        <button type="submit" class="btnReg">Sign In</button>
+    </form>
+
+    <div class="footer">
+        <footer class="site-footer">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-sm-2 offset-1">
+                            <h5>Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html">Home</li>
+                                <li><a href="aboutus.html">About</a></li>
+                                <li><a href="#">Sites</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-5 text-center">
+                            <div class="social">
+                                <h5>Join Us</h5>
+                                <a class="btn btn-social-icon btn-instagram" href=""><i class="fa fa-instagram"></i></a>
+                                <a class="btn btn-social-icon btn-facebook" href=""><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-twitter" href=""><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon btn-google" href=""><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                                Call Us</a><br />
+                            <a role="button" class="btn btn-link" href="mailto:sapphirepharm@gmail.com"><i
+                                    class="fa fa-envelope-o"></i>
+                                Email Us</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

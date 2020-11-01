@@ -13,7 +13,7 @@ body {
 }
 
 .jumbotron-fluid {
-	background-image: url("https://www.remedys.ca/-/media/McKesson/Common/Hero-Shots/WS_HeroShot_PharmacistWithPatient_OpioidFAQ_1920x500_V6.png");
+	background-image: url("images/welcome1.png");
 	font-weight: bolder;
 	color: rgb(163, 0, 33);
 	font-family: "Satisfy", cursive;
@@ -56,12 +56,124 @@ body {
 	margin: 10px;
 }
 
-.social {
-	word-spacing: 8px;
+/* Style the input container */
+
+form {
+	margin: auto;
+	padding: auto;
+}
+
+.input-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+	padding: 10px;
+	background: rgb(13, 148, 1);
+	color: white;
+	min-width: 50px;
+	text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+}
+
+.input-field:focus {
+	border: 2px solid rgb(33, 182, 7);
+}
+
+/* Set a style for the submit button */
+.btnReg {
+	background-color: rgb(29, 134, 3);
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 70%;
+	opacity: 0.9;
+}
+
+.btnReg:hover {
+	opacity: 1;
+}
+
+.about {
+	font-family: "Poppins", sans-serif;
+	background-color: rgb(233, 230, 230);
+}
+.about-header {
+	font-size: 3.5rem;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+}
+
+.about-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-para {
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.1rem;
+	word-spacing: 3px;
+}
+
+.about-us {
+	font-family: "Poppins", sans-serif;
+	background-color: rgb(233, 230, 230);
+}
+.about-us-header {
+	font-size: 3.5rem;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+
+.about-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-para {
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.1rem;
+	word-spacing: 3px;
+}
+
+.leader {
+	padding: 20px;
+	text-align: center;
+}
+
+.lead {
+	font-size: 3.2rem;
+	padding: 2px;
+}
+
+.lead-2 {
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.1rem;
+	word-spacing: 3px;
 }
 
 .footer {
-	background-image: linear-gradient(rgb(248, 247, 247), rgb(104, 104, 104));
+	background-image: linear-gradient(rgb(248, 247, 247), rgb(167, 127, 127));
 	padding: 12px;
 }
 

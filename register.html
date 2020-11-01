@@ -41,7 +41,7 @@
                             Services
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="">Vitamins</a>
+                            <a class="dropdown-item" href="#">Vitamins</a>
                             <a class="dropdown-item" href="#">Beauty Products</a>
                             <a class="dropdown-item" href="#">Reproductive Care</a>
                     </li>
@@ -59,7 +59,8 @@
                     </li>
                     <div class="search">
                         <form class="form-inline">
-                            <input class="form-control mr-sm-2 " type="search" placeholder="Search..." aria-label="Search">
+                            <input class="form-control mr-sm-2 " type="search" placeholder="Search..."
+                                aria-label="Search">
                             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
                         </form>
                     </div>
@@ -68,44 +69,22 @@
         </div>
     </nav>
 
-    <div class="refill">
-        <i class="fas fa-file-prescription"></i>
-    </div>
-
-
-    <div class="jumbotron jumbotron-fluid refill">
-        <div class="container">
-            <i class="fas fa-file-prescription"></i>
-            <h1 class="display-4">Refill and Pickup Your Prescriptions Today!</h1>
-            <p class="lead">Our Pharmacy Technicians are standing by.</p>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-    </div>
-
-    <div class="container-refill">
-        <form>
-
-            <label for="firstName">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="First Name..">
-
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Last Name..">
-
-            <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="phone" placeholder="Phone Number..">
-
-            <label for="prescription">Prescription Number</label>
-            <input type="text" id="prescription" name="prescription" placeholder="Prescription Number..">
-
-            <label for="location">Location</label>
-            <select id="location" name="location">
-                <option value="tema">Tema</option>
-                <option value="accra">Accra</option>
-                <option value="kumasi">Kumasi</option>
-            </select>
-                <input type="submit" value="Submit Your Prescription" class="submitRx">
-
-        </form>
-    </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
     <div class="footer">
         <footer class="site-footer">
