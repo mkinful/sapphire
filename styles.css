@@ -172,6 +172,7 @@ form {
 	word-spacing: 3px;
 }
 
+
 .footer {
 	background-image: linear-gradient(rgb(248, 247, 247), rgb(167, 127, 127));
 	padding: 12px;
@@ -180,3 +181,4 @@ form {
 .footer a {
 	text-decoration: none;
 }
+
